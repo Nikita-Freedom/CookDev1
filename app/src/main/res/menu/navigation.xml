@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_Tb"
+        android:icon="@drawable/shit"
+        android:title="@string/title_tb" />
+
+    <item
+        android:id="@+id/navigation_General"
+        android:icon="@drawable/abc1"
+        android:title="@string/title_General" />
+
+    <item
+        android:id="@+id/navigation_Recipe"
+        android:icon="@drawable/gama"
+        android:title="@string/title_recipe" />
+    <item
+        android:id="@+id/navigation_Teach"
+        android:icon="@drawable/zadan"
+        android:title="@string/title_zad" />
+
+</menu>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE4b5"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="178dp"
+                android:layout_height="116dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/jhon" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/text1Abc"
+                android:textSize="25sp"
+                android:textColor="#b22222"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/text2Abc"
+                android:textSize="25sp"
+                android:textColor="#b22222"/>
+
+            <ImageView
+                android:layout_width="197dp"
+                android:layout_height="158dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/polovnik" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Половник"
+                android:textSize="25sp"
+                android:textColor="#b22222"/>
+
+            <ImageView
+                android:layout_width="197dp"
+                android:layout_height="158dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/shumovka" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Шумовка"
+                android:textSize="25sp"
+                android:textColor="#b22222"/>
+            <ImageView
+                android:layout_width="197dp"
+                android:layout_height="158dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/logkaspr" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Ложка с прорезями"
+                android:textSize="25sp"
+                android:textColor="#b22222"/>
+            <ImageView
+                android:layout_width="197dp"
+                android:layout_height="158dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/lopatkaspr" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Лопатка с прорезями"
+                android:textSize="25sp"
+                android:textColor="#b22222"/>
+            <ImageView
+                android:layout_width="197dp"
+                android:layout_height="158dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/tolkushka" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Толкушка"
+                android:textSize="25sp"
+                android:textColor="#b22222"/>
+            <ImageView
+                android:layout_width="197dp"
+                android:layout_height="158dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/durshlak" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Дуршлаг"
+                android:textSize="25sp"
+                android:textColor="#b22222"/>
+            <ImageView
+                android:layout_width="197dp"
+                android:layout_height="158dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/sito" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Сито"
+                android:textSize="25sp"
+                android:textColor="#b22222"/>
+            <ImageView
+                android:layout_width="197dp"
+                android:layout_height="158dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/doska" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Разделочная доска"
+                android:textSize="25sp"
+                android:textColor="#b22222"/>
+            <ImageView
+                android:layout_width="197dp"
+                android:layout_height="158dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/terka" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Терка"
+                android:textSize="25sp"
+                android:textColor="#b22222"/>
+            <ImageView
+                android:layout_width="197dp"
+                android:layout_height="158dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/konte" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Контейнер"
+                android:textSize="25sp"
+                android:textColor="#b22222"/>
+            <ImageView
+                android:layout_width="197dp"
+                android:layout_height="158dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/podnos" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Поднос"
+                android:textSize="25sp"
+                android:textColor="#b22222"/>
+
+
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Я все выучил!"
+            android:background="@drawable/buttongarn"
+            android:id="@+id/buttonabc"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:padding="10sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
