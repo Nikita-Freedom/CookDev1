@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:orientation="vertical"
+    android:gravity="bottom">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="top">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Назад"
+            android:background="@drawable/buttongarn"
+            android:id="@+id/buttonzadBacksito"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:padding="10sp"
+            android:layout_marginLeft="7sp"
+            android:layout_marginRight="7sp"
+            android:layout_marginBottom="7sp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="259dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/sito" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="Введи название"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/sito"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Проверить!"
+        android:background="@drawable/buttongarn"
+        android:id="@+id/buttonzadchecksito"
+        android:layout_gravity="bottom"
+        android:textColor="#ffffff"
+        android:padding="10sp"
+        android:layout_marginLeft="7sp"
+        android:layout_marginRight="7sp"
+        android:layout_marginBottom="7sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Далее!"
+        android:background="@drawable/buttongarn"
+        android:id="@+id/buttonzadGOsito"
+        android:layout_gravity="bottom"
+        android:textColor="#ffffff"
+        android:padding="10sp"
+        android:layout_marginLeft="7sp"
+        android:layout_marginRight="7sp"
+        android:layout_marginBottom="7sp"/>
+</LinearLayout>

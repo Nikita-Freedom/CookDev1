@@ -16,9 +16,9 @@
     </item>
     <item>
         <shape android:shape="rectangle"  >
-            <corners android:radius="5dip" />
+            <corners android:radius="300dip" />
             <stroke android:width="4dip" android:color="#ffffff" />
-            <solid android:color="#FFE4b5"/>
+            <solid android:color="#FF5722"/>
         </shape>
     </item>
 </selector>

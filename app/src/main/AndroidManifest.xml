@@ -28,6 +28,12 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity android:name=".IntroActivity" />
+        <activity
+            android:name=".ActivityMid"
+            android:label="@string/title_activity_mid">
+            14+
+        </activity>
+        <activity android:name=".ActivityRecipe"></activity>
     </application>
 
 </manifest>
