@@ -1,7 +1,7 @@
 package ru.startandroid.cookdev1;
 
 public class Recipe {
-    private int mImageResource1;
+    public int mImageResource1;
     private int mImageResource2;
     private int mImageResource3;
     private int mImageResource4;
