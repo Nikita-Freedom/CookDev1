@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -20,10 +21,11 @@ public class ActivityNov extends AppCompatActivity implements BottomNavigationVi
     /** список фрагментов для отображения. */
     private final List<Fragment> _fragments = new ArrayList<Fragment>();
     /** сам ViewPager который будет все это отображать. */
+    private static String FRAGMENT_INSTANCE_NAME = "fragment";
+
     private ViewPager _viewPager;
     public static final int FRAGMENT_ONE = 0;
     public static final int FRAGMENT_TWO = 1;
-    /** идентификатор второго. */
     public static final int FRAGMENT_THREE = 2;
     public static final int FRAGMENT_FOUR = 3;
     public static final int FRAGMENT_FIVE = 4;
@@ -48,6 +50,7 @@ public class ActivityNov extends AppCompatActivity implements BottomNavigationVi
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         _fragments.add(FRAGMENT_ONE, new TbFragment());
         _fragments.add(FRAGMENT_TWO, new TbFragment());
         _fragments.add(FRAGMENT_THREE, new AbcFragment());
@@ -86,7 +89,7 @@ public class ActivityNov extends AppCompatActivity implements BottomNavigationVi
         if(fragment != null){
             getSupportFragmentManager()
                     .beginTransaction()
-                    .replace(R.id.fragment_container, fragment)
+                    .add(R.id.fragment_container, fragment)
                     .commit();
 
             return true;

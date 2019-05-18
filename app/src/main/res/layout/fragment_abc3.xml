@@ -30,10 +30,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text41Abc"
-        android:textSize="20sp"
+        android:textSize="25sp"
         android:layout_gravity="center_horizontal"
         android:textColor="#ffffff"
-        android:layout_marginTop="10sp"/>
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
@@ -47,7 +49,9 @@
         android:textSize="20sp"
         android:layout_gravity="center_horizontal"
         android:textColor="#ffffff"
-        android:layout_marginTop="10sp"/>
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"/>
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -62,7 +66,9 @@
                 android:textSize="25sp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#ffffff"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
@@ -95,10 +101,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/text44Abc"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#ffffff"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -151,15 +159,19 @@
                 android:textSize="25sp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#ffffff"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/text46Abc"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#ffffff"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -168,12 +180,15 @@
                 android:layout_gravity="center_horizontal"
                 android:textColor="#ffffff"
                 android:layout_marginTop="10sp"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="200sp"
-                android:layout_gravity="center_horizontal"
-                android:src="@drawable/salsal"
-                android:layout_marginTop="10sp"/>
+
+                <ImageView
+                    android:layout_width="268dp"
+                    android:layout_height="200sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="16sp"
+                    android:layout_marginRight="16sp"
+                    android:layout_marginTop="10sp"
+                    android:src="@drawable/salsal" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -181,13 +196,17 @@
                 android:textSize="28sp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#ffffff"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/pomsal"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -195,13 +214,16 @@
                 android:textSize="28sp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#ffffff"
-                android:layout_marginTop="10sp"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="200sp"
-                android:layout_gravity="center_horizontal"
-                android:src="@drawable/kursal"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
+
+                <ImageView
+                    android:layout_width="283dp"
+                    android:layout_height="200sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10sp"
+                    android:src="@drawable/kursal" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -209,13 +231,17 @@
                 android:textSize="28sp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#ffffff"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/hlebsal"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -223,13 +249,17 @@
                 android:textSize="28sp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#ffffff"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/soussal"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -237,13 +267,17 @@
                 android:textSize="28sp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#ffffff"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/maslosal"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -251,7 +285,9 @@
                 android:textSize="28sp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#ffffff"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
@@ -265,13 +301,17 @@
                 android:textSize="28sp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#ffffff"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/chesnoksal"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -279,7 +319,9 @@
                 android:textSize="28sp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#ffffff"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -287,7 +329,9 @@
                 android:textSize="35sp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#ffffff"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -295,12 +339,14 @@
                 android:textSize="28sp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#ffffff"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/text56Abc"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#ffffff"
                 android:layout_marginTop="10sp"/>
@@ -309,58 +355,74 @@
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/salsalrec"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/text57Abc"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#ffffff"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/maslosalrec"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/text58Abc"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#ffffff"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/kursalrec"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/text59Abc"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:layout_gravity="center_horizontal"
                 android:textColor="#ffffff"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/chesnoksalrec"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
 
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/text60Abc"
-                    android:textSize="20sp"
+                    android:textSize="25sp"
                     android:layout_gravity="center_horizontal"
                     android:textColor="#ffffff"
-                    android:layout_marginTop="10sp"/>
+                    android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
 
 
             <ImageView
@@ -368,54 +430,68 @@
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/hlebsalrec"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
 
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/text61Abc"
-                    android:textSize="20sp"
+                    android:textSize="25sp"
                     android:layout_gravity="center_horizontal"
                     android:textColor="#ffffff"
-                    android:layout_marginTop="10sp"/>
+                    android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/pomidorsalrec"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/text62Abc"
-                    android:textSize="20sp"
+                    android:textSize="25sp"
                     android:layout_gravity="center_horizontal"
                     android:textColor="#ffffff"
-                    android:layout_marginTop="10sp"/>
+                    android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/cezarsalrec"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
 
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/text63Abc"
-                    android:textSize="20sp"
+                    android:textSize="25sp"
                     android:layout_gravity="center_horizontal"
                     android:textColor="#ffffff"
-                    android:layout_marginTop="10sp"/>
+                    android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/cheesesalrec"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -423,13 +499,17 @@
             android:textSize="30sp"
             android:layout_gravity="center_horizontal"
             android:textColor="#ffffff"
-            android:layout_marginTop="10sp"/>
+            android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/cezarsal"
-                android:layout_marginTop="10sp"/>
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -437,7 +517,9 @@
                     android:textSize="25sp"
                     android:layout_gravity="center_horizontal"
                     android:textColor="#ffffff"
-                    android:layout_marginTop="10sp"/>
+                    android:layout_marginTop="10sp"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -445,12 +527,16 @@
                     android:textSize="25sp"
                     android:layout_gravity="center_horizontal"
                     android:textColor="#ffffff"
-                    android:layout_marginTop="10sp"/>
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="16sp"
+                    android:layout_marginRight="16sp"/>
             <ImageView
                 android:layout_width="178dp"
                 android:layout_height="183dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/lisapovar" />
+                android:src="@drawable/lisapovar"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
 
             <Button
                 android:layout_width="match_parent"

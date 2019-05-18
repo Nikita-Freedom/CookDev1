@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 public class ActivityRecipe extends AppCompatActivity {
     TextView mText1;
     TextView mText2;
@@ -38,5 +40,8 @@ public class ActivityRecipe extends AppCompatActivity {
         setContentView(R.layout.activity_recipe);
        String mText1 = getIntent().getStringExtra("Название");
        String mText2 = getIntent().getStringExtra("Ингредиенты");
+        ArrayList<Recipe> activityRecipes = new ArrayList<>();
+        activityRecipes.add(new Recipe(R.drawable.shaurma, R.drawable.podnos, R.drawable.ovenrec3, R.drawable.fondev4, R.drawable.oven, R.drawable.zapekanka3, R.drawable.zapekanka1, R.drawable.zepekanka2, R.drawable.tvorog, R.drawable.terka, R.drawable.vodakipit,
+                "ssss", "ssss", "aaaaaa", "wwww", "oooo", "jjjjj", "sss", "pppp", "mmmm", "zzz", "aqqaq"));
     }
 }

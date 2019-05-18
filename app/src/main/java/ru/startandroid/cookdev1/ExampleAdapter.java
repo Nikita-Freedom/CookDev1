@@ -45,11 +45,13 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ExampleV
                  startActivity(v.getContext(), intent, null);
                  intent.putExtra("Text", mTextViewRec1.getText().toString());
                  intent.putExtra("Text", mTextViewRec2.getText().toString());
+
              }
          });
         }
 
     }
+
     public ExampleAdapter(ArrayList<ExampleItem> exampleList){
         mExampleList = exampleList;
     }

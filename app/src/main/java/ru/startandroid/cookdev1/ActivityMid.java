@@ -33,6 +33,7 @@ public class ActivityMid extends AppCompatActivity implements BottomNavigationVi
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         _fragments.add(FRAGMENT_ONE, new TbMidFragment());
+        _fragments.add(FRAGMENT_TWO, new ZadMidFragment());
         //_fragments.add(FRAGMENT_ONE, new TbFragment());
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nov);
@@ -70,7 +71,7 @@ public class ActivityMid extends AppCompatActivity implements BottomNavigationVi
                 fragment = new RecipeMidFragment();
                 break;
             case  R.id.navigation_Teach:
-                fragment = new ZadFragment();
+                fragment = new ZadMidFragment();
                 break;
         }
         return loadFragment(fragment);

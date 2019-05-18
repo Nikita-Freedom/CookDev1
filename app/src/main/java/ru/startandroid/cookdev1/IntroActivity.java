@@ -8,13 +8,13 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
 import android.support.v4.app.Fragment;
+import android.widget.Toast;
 
 import com.github.paolorotolo.appintro.AppIntro;
 import com.github.paolorotolo.appintro.AppIntroFragment;
 
 public class IntroActivity extends AppIntro  {
-    //private static final String MY_SETTINGS = "my_settings";
-    private static final String MY_PREFERENCES = "my_preferences";
+    private static final String MY_SETTINGS = "my_settings";
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,22 @@ public class IntroActivity extends AppIntro  {
         addSlide(SampleSlide.newInstance(R.layout.slide_2));
         addSlide(SampleSlide.newInstance(R.layout.slide_3));
         addSlide(AppIntroFragment.newInstance("Начнем!", "Окунись в мир кулинарии!", R.drawable.hb, getColor(R.color.colorAccent)));
+        SharedPreferences prefs = getPreferences(MODE_PRIVATE);
+        SharedPreferences sp = getSharedPreferences(MY_SETTINGS,
+                Context.MODE_PRIVATE);
+        // проверяем, первый ли раз открывается программа
+        boolean hasVisited = sp.getBoolean("hasVisited", false);
+
+        if (!hasVisited) {
+            Intent intent = new Intent(IntroActivity.this, MainActivity.class);
+            startActivity(intent);// выводим нужную активность
+            SharedPreferences.Editor e = sp.edit();
+            e.putBoolean("hasVisited", true);
+            e.apply(); // не забудьте подтвердить изменения
+        }
+
+    }
+
         /*SharedPreferences sp = getSharedPreferences(MY_SETTINGS,
                 Context.MODE_PRIVATE);
         // проверяем, первый ли раз открывается программа
@@ -34,7 +50,7 @@ public class IntroActivity extends AppIntro  {
             e.apply(); // не забудьте подтвердить изменения
         }*/
 
-    }
+
     @Override
     public void onSkipPressed(Fragment currentFragment) {
         super.onSkipPressed(currentFragment);

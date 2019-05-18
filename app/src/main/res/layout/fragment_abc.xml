@@ -17,7 +17,8 @@
             android:layout_gravity="center_horizontal"
             android:text="@string/text1Abc"
             android:textSize="25sp"
-            android:textColor="#ffffff"/>
+            android:textColor="#ffffff"
+                />
 
             <ImageView
                 android:layout_width="178dp"
@@ -31,7 +32,9 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/text2Abc"
                 android:textSize="25sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#ffffff"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
 
             <ImageView
                 android:layout_width="197dp"
@@ -196,8 +199,8 @@
             android:text="@string/abcend"
             android:textSize="25sp"
             android:textColor="#ffffff"
-            android:layout_marginRight="10sp"
-            android:layout_marginLeft="10sp"/>
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
             <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

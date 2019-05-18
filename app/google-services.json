@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "545369953529",
+    "firebase_url": "https://cookdev1-a9a20.firebaseio.com",
+    "project_id": "cookdev1-a9a20",
+    "storage_bucket": "cookdev1-a9a20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545369953529:android:7c5db4da28a8fd2e",
+        "android_client_info": {
+          "package_name": "ru.startandroid.cookdev1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545369953529-qmdjioi320tqo2cup1g5t5gqnh9hqng6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.startandroid.cookdev1",
+            "certificate_hash": "9ae15e2c186470f6e2638144bda5bbb25b1a8b57"
+          }
+        },
+        {
+          "client_id": "545369953529-ht11or94qa4msioud76jvs93s57123ks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtbckdkTg53BPZXvMxenFF7BdZoXTbCiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545369953529-ht11or94qa4msioud76jvs93s57123ks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
