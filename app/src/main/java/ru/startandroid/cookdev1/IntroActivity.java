@@ -26,7 +26,6 @@ public class IntroActivity extends AppIntro  {
         SharedPreferences prefs = getPreferences(MODE_PRIVATE);
         SharedPreferences sp = getSharedPreferences(MY_SETTINGS,
                 Context.MODE_PRIVATE);
-        // проверяем, первый ли раз открывается программа
         boolean hasVisited = sp.getBoolean("hasVisited", false);
 
         if (!hasVisited) {
@@ -34,20 +33,20 @@ public class IntroActivity extends AppIntro  {
             startActivity(intent);// выводим нужную активность
             SharedPreferences.Editor e = sp.edit();
             e.putBoolean("hasVisited", true);
-            e.apply(); // не забудьте подтвердить изменения
+            e.apply();
         }
 
     }
 
         /*SharedPreferences sp = getSharedPreferences(MY_SETTINGS,
                 Context.MODE_PRIVATE);
-        // проверяем, первый ли раз открывается программа
+
         boolean hasVisited = sp.getBoolean("hasVisited", false);
         if (!hasVisited) {
-            // выводим нужную активность
+
             SharedPreferences.Editor e = sp.edit();
             e.putBoolean("hasVisited", true);
-            e.apply(); // не забудьте подтвердить изменения
+            e.apply();
         }*/
 
 
@@ -66,19 +65,8 @@ public class IntroActivity extends AppIntro  {
     @Override
     public void onSlideChanged(@Nullable Fragment oldFragment, @Nullable Fragment newFragment) {
         super.onSlideChanged(oldFragment, newFragment);
-        // Do something when the slide changes.
     }
 
 
-    /*public static boolean isFirst(Context context){
-        final SharedPreferences reader = context.getSharedPreferences(MY_PREFERENCES, Context.MODE_PRIVATE);
-        final boolean first = reader.getBoolean("is_first", true);
-        if(first){
-            final SharedPreferences.Editor editor = reader.edit();
-            editor.putBoolean("is_first", false);
-            editor.commit();
-        }
-        return first;
-    }*/
 
 }

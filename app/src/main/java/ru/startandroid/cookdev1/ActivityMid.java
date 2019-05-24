@@ -1,27 +1,26 @@
 package ru.startandroid.cookdev1;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.MenuItem;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ActivityMid extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener{
+public class ActivityMid extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
     private FragmentPagerAdapter _fragmentPagerAdapter;
-    /** список фрагментов для отображения. */
     private final List<Fragment> _fragments = new ArrayList<Fragment>();
-    //private final List<Fragment> _fragments = new ArrayList<Fragment>();
-    /** сам ViewPager который будет все это отображать. */
-    //private ViewPager _viewPager;
-    //public static final int FRAGMENT_ONE = 0;
-    /** идентификатор второго. */
     public static final int FRAGMENT_ONE = 0;
     public static final int FRAGMENT_TWO = 1;
     public static final int FRAGMENT_THREE = 2;
@@ -29,7 +28,6 @@ public class ActivityMid extends AppCompatActivity implements BottomNavigationVi
     public static final int FRAGMENT_FIVE = 4;
     public static final int FRAGMENT_SIX = 5;
     public static final int FRAGMENT_SEVEN = 6;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         _fragments.add(FRAGMENT_ONE, new TbMidFragment());
@@ -41,10 +39,6 @@ public class ActivityMid extends AppCompatActivity implements BottomNavigationVi
         navigation.setOnNavigationItemSelectedListener(this);
         loadFragment(new TbMidFragment());
     }
-    //public void setPage(int page) {
-        //_viewPager.setCurrentItem(page, true); //второй параметр для плавного перелистывания
-    //}
-
     public boolean loadFragment(Fragment fragment){
         if(fragment != null){
             getSupportFragmentManager()

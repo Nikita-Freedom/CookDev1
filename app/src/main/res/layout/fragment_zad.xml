@@ -28,11 +28,11 @@
         android:layout_marginRight="16sp"/>
 
     <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:cropToPadding="true"
-            android:src="@drawable/polovnik" />
+        android:layout_width="wrap_content"
+        android:layout_height="236dp"
+        android:layout_gravity="center_horizontal"
+        android:cropToPadding="true"
+        android:src="@drawable/polovnik" />
 
     <EditText
         android:layout_width="wrap_content"

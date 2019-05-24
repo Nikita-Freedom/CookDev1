@@ -17,16 +17,7 @@ public class TbMidFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         fragment1mid = new TbMidFragment();
         View v = inflater.inflate(R.layout.fragment_tbmid, null);
-       // Button button1 = (Button) v.findViewById(R.id.buttontbmid);
-       // button1.setOnClickListener(new View.OnClickListener() {
-       //     @Override
-       //     public void onClick(View v) {
-       //         FragmentTransaction transaction = getFragmentManager().beginTransaction();
-       //         transaction.replace(R.id.fragment_container, fragment1mid);
-       //         transaction.commit();
-       //     }
-        //});
-return v;
+        return v;
     }
 
     @Override

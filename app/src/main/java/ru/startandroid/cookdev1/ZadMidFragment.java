@@ -68,9 +68,6 @@ public class ZadMidFragment extends Fragment{
                 text1.setText(String.valueOf(score1));
                 if(score1 == 100)
                     image.setImageDrawable(getResources().getDrawable(R.drawable.lisasad));
-                   // Snackbar.make(v, "Победа!" + score1,
-                   //         Snackbar.LENGTH_LONG)
-                   //         .setAction("Action", null).show();
 
             }
 
@@ -89,97 +86,10 @@ public class ZadMidFragment extends Fragment{
                 if(score == 100)
                     image1.setImageDrawable(getResources().getDrawable(R.drawable.lisasad));
 
-                    //Snackbar.make(v, "Победа!" + score1,
-                    //        Snackbar.LENGTH_LONG)
-                    //        .setAction("Action", null).show();
-
             }
 
         });
-    return v;
-    }
-    class TestSurfaceView extends SurfaceView implements SurfaceHolder.Callback {
-        private DrawThread drawThread;
-        public TestSurfaceView(Context context) {
-            super(context);
-            getHolder().addCallback(this);
-        }
-
-        @Override
-        public void surfaceCreated(SurfaceHolder holder) {
-            drawThread = new DrawThread(getContext(),getHolder());
-            drawThread.start();// создание SurfaceView
-        }
-
-        @Override
-        public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
-// изменение размеров SurfaceView
-        }
-
-        @Override
-        public void surfaceDestroyed(SurfaceHolder holder) {
-            drawThread.requestStop();
-            boolean retry = true;
-            while (retry) {
-                try {
-                    drawThread.join();
-                    retry = false;
-                } catch (InterruptedException e) {
-//
-                }
-            }// уничтожение SurfaceView
-        }
-
-        @Override
-        public boolean onTouchEvent(MotionEvent event) {
-//drawThread.set(event.getX(), event.getY(), 0);
-            return super.onTouchEvent(event);
-        }
-    }
-    class DrawThread extends Thread {
-
-        private SurfaceHolder surfaceHolder;
-
-        private volatile boolean running = true;
-
-        public DrawThread(Context context, SurfaceHolder surfaceHolder) {
-            this.surfaceHolder = surfaceHolder;
-        }
-
-        public void requestStop() {
-            running = false;
-        }
-
-        @Override
-        public void run() {
-            Paint paint = new Paint();
-            paint.setColor(Color.YELLOW);
-            int c=0;
-            while (running) {
-                Canvas canvas = surfaceHolder.lockCanvas();
-                if (canvas != null) {
-                    try {
-                        if(c==0){
-                            canvas.drawColor(Color.GREEN);
-                        }else if(c==1){
-                            canvas.drawColor(Color.YELLOW);
-                        }else if(c==2){
-                            canvas.drawColor(Color.RED);
-                        }
-
-                    } finally {
-                        surfaceHolder.unlockCanvasAndPost(canvas);
-                    }
-
-                }
-                try {
-                    Thread.sleep(2000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                c=(c+1)%3;
-            }
-        }
+        return v;
     }
      @Override
     public void onSaveInstanceState(@NonNull Bundle outState) {

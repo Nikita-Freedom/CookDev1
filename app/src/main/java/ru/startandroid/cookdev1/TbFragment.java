@@ -25,17 +25,7 @@ public class TbFragment extends Fragment{
         fragment1 = new TbFragment();
         setRetainInstance(true);
         View v = inflater.inflate(R.layout.fragment_tb, null);
-       // Button button1 = (Button) v.findViewById(R.id.buttontbmid);
-       // button1.setOnClickListener(new View.OnClickListener() {
-       //     @Override
-       //     public void onClick(View v) {
-       //         FragmentTransaction transaction = getFragmentManager().beginTransaction();
-       //         transaction.replace(R.id.fragment_container, fragment1);
-       //         transaction.commit();
-       //     }
-//       });
-
-return v;
+        return v;
     }
 
     @Override

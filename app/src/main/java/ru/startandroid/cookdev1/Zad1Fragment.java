@@ -16,9 +16,6 @@ import android.widget.Toast;
 public class Zad1Fragment extends Fragment {
     Fragment fragmentzad2;
     Fragment fragmentzad3;
-
-    //EditText textpolovnik;
-    //Button button1;
     @Nullable
     @Override
 

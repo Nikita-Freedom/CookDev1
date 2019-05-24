@@ -18,11 +18,8 @@ import java.util.List;
 
 public class ActivityNov extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener{
     private FragmentPagerAdapter _fragmentPagerAdapter;
-    /** список фрагментов для отображения. */
     private final List<Fragment> _fragments = new ArrayList<Fragment>();
-    /** сам ViewPager который будет все это отображать. */
     private static String FRAGMENT_INSTANCE_NAME = "fragment";
-
     private ViewPager _viewPager;
     public static final int FRAGMENT_ONE = 0;
     public static final int FRAGMENT_TWO = 1;
@@ -47,7 +44,6 @@ public class ActivityNov extends AppCompatActivity implements BottomNavigationVi
     public static final int FRAGMENT_21 = 19;
     public static final int FRAGMENT_22 = 20;
     public static final int FRAGMENT_23 = 21;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -89,7 +85,7 @@ public class ActivityNov extends AppCompatActivity implements BottomNavigationVi
         if(fragment != null){
             getSupportFragmentManager()
                     .beginTransaction()
-                    .add(R.id.fragment_container, fragment)
+                    .replace(R.id.fragment_container, fragment)
                     .commit();
 
             return true;

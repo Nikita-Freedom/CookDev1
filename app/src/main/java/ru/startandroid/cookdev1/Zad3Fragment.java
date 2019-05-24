@@ -16,14 +16,10 @@ import android.widget.Toast;
 public class Zad3Fragment extends Fragment {
     Fragment fragmentzad3;
     Fragment fragmentzad4;
-
-    //EditText textpolovnik;
-    //Button button1;
     @Nullable
     @Override
 
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        //textpolovnik.findViewById(R.id.polovnik);
         fragmentzad3 = new Zad4Fragment();
         View v = inflater.inflate(R.layout.fragment_zad3, null);
         final Button button1 = (Button) v.findViewById(R.id.buttonzadnext3);

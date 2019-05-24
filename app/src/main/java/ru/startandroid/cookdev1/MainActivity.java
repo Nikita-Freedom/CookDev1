@@ -18,8 +18,6 @@ public class MainActivity extends AppCompatActivity {
     TextView Age;
     Button btnNov;
     Button btnMid;
-    //private FirebaseAuth mAuth;
-    //private FirebaseAuth.AuthStateListener mAuthListener;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,15 +29,6 @@ public class MainActivity extends AppCompatActivity {
         Age = (TextView) findViewById(R.id.Age);
         btnNov = (Button) findViewById(R.id.Nov);
         btnMid = (Button) findViewById(R.id.Mid);
-        //btnPro = (Button) findViewById(R.id.Pro);
-       /* View.OnClickListener oclbtnMid = new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ActivityMid.class );
-                startActivity(intent);
-            }
-        };
-        btnMid.setOnClickListener(oclbtnMid);*/
         View.OnClickListener oclbtnNov = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -56,6 +45,5 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         btnMid.setOnClickListener(oclbtnMid);
-        //mAuth = FirebaseAuth.getInstance();
     }
 }
