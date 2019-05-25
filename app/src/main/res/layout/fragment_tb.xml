@@ -71,7 +71,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="232dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/ogog" />
+                android:src="@drawable/ogog1" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -84,7 +84,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="232dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/ojogruki" />
+                android:src="@drawable/ogog2" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -110,7 +110,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="232dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/ojogmarlya" />
+                android:src="@drawable/broken" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -133,7 +133,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="232dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/pogarkuh" />
+                android:src="@drawable/ogon" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -147,7 +147,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="232dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/pogartel" />
+                android:src="@drawable/ogontel" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -160,7 +160,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="232dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/pogarris"/>
+                android:src="@drawable/po"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -173,7 +173,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="232dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/pogarokno"
+                android:src="@drawable/okno"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
             <TextView
