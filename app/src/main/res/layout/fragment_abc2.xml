@@ -11,7 +11,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="назад"
+                android:id="@+id/buttonabc131"
+                android:textColor="#ffffff"
+                android:background="@drawable/buttongarn"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="7sp"
+                android:layout_marginTop="16sp"/>
             <ImageView
                 android:layout_width="178dp"
                 android:layout_height="183dp"
@@ -35,14 +44,15 @@
                 android:layout_marginTop="10sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
+
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="200sp"
+                android:layout_height="186dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/makaroni"
-                android:layout_marginTop="10sp"
                 android:layout_marginLeft="16sp"
-                android:layout_marginRight="16sp"/>
+                android:layout_marginRight="16sp"
+                android:layout_marginTop="10sp"
+                android:src="@drawable/lap" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -83,7 +93,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/makaroni1"
+                android:src="@drawable/mak"
                 android:layout_marginTop="10sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -99,7 +109,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/grecha"
+                android:src="@drawable/gre"
                 android:layout_marginTop="10sp"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -141,7 +151,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/pure"
+                android:src="@drawable/eda91"
                 android:layout_marginTop="10sp"/>
             <TextView
                 android:layout_width="wrap_content"
