@@ -30,6 +30,18 @@ public class AbcFragment extends Fragment {
             }
 
 
+        });
+        Button button2 = (Button) v.findViewById(R.id.buttonabcup);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentTransaction transaction = getFragmentManager().beginTransaction();
+                transaction.replace(R.id.fragment_container, fragmentabc1);
+                transaction.commit();
+
+            }
+
+
         });return v;
 
     }
