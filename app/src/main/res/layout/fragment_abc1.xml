@@ -11,7 +11,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="назад"
+                android:id="@+id/buttonabc123"
+                android:textColor="#ffffff"
+                android:background="@drawable/buttongarn"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="7sp"
+                android:layout_marginTop="16sp"/>
             <ImageView
                 android:layout_width="178dp"
                 android:layout_height="183dp"
@@ -117,7 +126,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/slivmaslo" />
+                android:src="@drawable/butter" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -158,7 +167,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/sun" />
+                android:src="@drawable/eggkot" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -208,7 +217,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/eggbroken" />
+                android:src="@drawable/eggse" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -271,15 +280,6 @@
                 android:layout_height="183dp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/lisapovar" />
-
-
-
-            <ListView
-                    android:id="@+id/listabc"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                </ListView>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -12,6 +12,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="назад"
+                android:id="@+id/buttonabc1321"
+                android:textColor="#ffffff"
+                android:background="@drawable/buttongarn"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="7sp"
+                android:layout_marginTop="16sp"/>
             <ImageView
                 android:layout_width="178dp"
                 android:layout_height="183dp"
@@ -382,7 +392,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/eggs"
+                android:src="@drawable/eggse"
                 android:layout_marginTop="10sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>

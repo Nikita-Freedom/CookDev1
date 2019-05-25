@@ -13,6 +13,7 @@ import android.widget.Button;
 public class AbcFragment4 extends Fragment {
     Fragment fragmentabc6;
     Fragment fragmentabc7;
+    Fragment fragmentabc8;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -25,6 +26,16 @@ public class AbcFragment4 extends Fragment {
                 fragmentabc7 = new AbcFragment3();
                 FragmentTransaction transaction = getFragmentManager().beginTransaction();
                 transaction.add(R.id.fragment_container, fragmentabc7);
+                transaction.commit();
+            }
+        });
+        Button button3 = (Button) v.findViewById(R.id.buttonabc1321);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                fragmentabc8 = new AbcFragment3();
+                FragmentTransaction transaction = getFragmentManager().beginTransaction();
+                transaction.add(R.id.fragment_container, fragmentabc8);
                 transaction.commit();
             }
         });return v;

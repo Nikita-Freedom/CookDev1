@@ -19,6 +19,7 @@ import java.util.List;
 public class AbcFragment1 extends Fragment {
     Fragment fragmentabc2;
     Fragment fragmentabc3;
+    Fragment fragmentabc6;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -41,6 +42,16 @@ public class AbcFragment1 extends Fragment {
                 fragmentabc3 = new AbcFragment2();
                 FragmentTransaction transaction = getFragmentManager().beginTransaction();
                 transaction.add(R.id.fragment_container, fragmentabc3);
+                transaction.commit();
+            }
+        });
+        Button button3 = (Button) v.findViewById(R.id.buttonabc123);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                fragmentabc6 = new AbcFragment();
+                FragmentTransaction transaction = getFragmentManager().beginTransaction();
+                transaction.add(R.id.fragment_container, fragmentabc6);
                 transaction.commit();
             }
         });return v;
