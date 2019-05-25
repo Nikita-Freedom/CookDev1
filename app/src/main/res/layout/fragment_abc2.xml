@@ -143,7 +143,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/ris1"
+                android:src="@drawable/ris4"
                 android:layout_marginTop="10sp"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -157,7 +157,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/kartofel"
+                android:src="@drawable/pot"
                 android:layout_marginTop="10sp"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -171,7 +171,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/eda91"
+                android:src="@drawable/puree"
                 android:layout_marginTop="10sp"/>
             <TextView
                 android:layout_width="wrap_content"

@@ -3,21 +3,21 @@
 
     <item
         android:id="@+id/navigation_Tb"
-        android:icon="@drawable/shit"
+        android:icon="@drawable/allert"
         android:title="@string/title_tb" />
 
     <item
         android:id="@+id/navigation_General"
-        android:icon="@drawable/abc1"
+        android:icon="@drawable/gen"
         android:title="@string/title_General" />
 
     <item
         android:id="@+id/navigation_Recipe"
-        android:icon="@drawable/gama"
+        android:icon="@drawable/erda"
         android:title="@string/title_recipe" />
     <item
         android:id="@+id/navigation_Teach"
-        android:icon="@drawable/zadan"
+        android:icon="@drawable/key"
         android:title="@string/title_zad" />
 
 </menu>
