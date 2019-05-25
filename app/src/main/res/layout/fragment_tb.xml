@@ -163,7 +163,7 @@
                 android:layout_width="187dp"
                 android:layout_height="156dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/po" />
+                android:src="@drawable/po"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
