@@ -5,7 +5,7 @@
     android:layout_weight="1"
     android:orientation="vertical"
     android:background="#009688"
-    android:gravity="center_horizontal"
+    android:gravity="center"
     >
     <LinearLayout
         android:layout_width="wrap_content"
@@ -46,34 +46,36 @@
             android:textStyle="bold" />
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:layout_gravity="bottom"
-            android:layout_marginTop="20sp"
-            android:layout_marginBottom="10sp">
-            <Button
-                android:id="@+id/Nov"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:width="200sp"
-                android:background="@drawable/button"
-                android:text="от 7 до 14"
-                android:textColor="#ffffff"
-                android:textSize="30sp"
-                android:layout_marginRight="15sp" />
-            <Button
-                android:id="@+id/Mid"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/button"
-                android:text="14+"
-                android:textColor="#ffffff"
-                android:textSize="30sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10sp"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Nov"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15sp"
+            android:width="200sp"
+            android:background="@drawable/button"
+            android:text="от 7 до 14"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Mid"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="14+"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
 
     </LinearLayout>
 </LinearLayout>

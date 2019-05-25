@@ -66,7 +66,7 @@ public class ZadMidFragment extends Fragment{
 
                 flag = !flag;
                 text1.setText(String.valueOf(score1));
-                if(score1 == 100)
+                if(score1 == 50)
                     image.setImageDrawable(getResources().getDrawable(R.drawable.lisasad));
 
             }
@@ -83,7 +83,7 @@ public class ZadMidFragment extends Fragment{
 
                 flag = !flag;
                 text.setText(String.valueOf(score));
-                if(score == 100)
+                if(score == 50)
                     image1.setImageDrawable(getResources().getDrawable(R.drawable.lisasad));
 
             }
