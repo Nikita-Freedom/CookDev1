@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#009688"
+    android:background="#ffffff"
     android:orientation="vertical"
     android:gravity="center">
     <TextView
@@ -11,7 +11,7 @@
         android:layout_gravity="center"
         android:gravity="center_horizontal"
         android:text="А теперь проверим твои знания!"
-        android:textColor="#ffffff"
+        android:textColor="#757575"
         android:textSize="25sp"
         android:layout_marginTop="10sp"
         android:layout_marginLeft="16sp"
@@ -22,7 +22,7 @@
         android:layout_gravity="center"
         android:gravity="center_horizontal"
         android:text="Введи название предмета, изображенного на картинке"
-        android:textColor="#ffffff"
+        android:textColor="#757575"
         android:textSize="20sp"
         android:layout_marginLeft="16sp"
         android:layout_marginRight="16sp"/>
@@ -42,8 +42,8 @@
         android:layout_gravity="center_horizontal"
         android:id="@+id/polovnik"
         android:inputType="textPersonName"
-        android:textColor="#ffffff"
-        android:textColorHint="#ffffff"/>
+        android:textColor="#757575"
+        android:textColorHint="#757575"/>
 
     <Button
         android:layout_width="match_parent"

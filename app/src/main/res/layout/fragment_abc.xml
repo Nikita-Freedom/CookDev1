@@ -2,7 +2,7 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#009688"
+    android:background="#ffffff"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <ScrollView
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
             android:layout_gravity="center_horizontal"
             android:text="@string/text1Abc"
             android:textSize="25sp"
-            android:textColor="#ffffff"
+            android:textColor="#212121"
                 />
 
             <ImageView
@@ -32,7 +32,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/text2Abc"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
 
@@ -47,7 +47,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Половник"
                 android:textSize="25sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#757575"/>
 
             <ImageView
                 android:layout_width="197dp"
@@ -60,7 +60,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Шумовка"
                 android:textSize="25sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#757575"/>
             <ImageView
                 android:layout_width="197dp"
                 android:layout_height="158dp"
@@ -72,7 +72,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Ложка с прорезями"
                 android:textSize="25sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#757575"/>
             <ImageView
                 android:layout_width="197dp"
                 android:layout_height="158dp"
@@ -84,7 +84,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Лопатка с прорезями"
                 android:textSize="25sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#757575"/>
             <ImageView
                 android:layout_width="197dp"
                 android:layout_height="158dp"
@@ -96,7 +96,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Толкушка"
                 android:textSize="25sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#757575"/>
             <ImageView
                 android:layout_width="197dp"
                 android:layout_height="158dp"
@@ -108,7 +108,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Дуршлаг"
                 android:textSize="25sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#757575"/>
             <ImageView
                 android:layout_width="197dp"
                 android:layout_height="158dp"
@@ -120,7 +120,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Сито"
                 android:textSize="25sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#757575"/>
             <ImageView
                 android:layout_width="197dp"
                 android:layout_height="158dp"
@@ -132,7 +132,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Разделочная доска"
                 android:textSize="25sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#757575"/>
             <ImageView
                 android:layout_width="197dp"
                 android:layout_height="158dp"
@@ -144,7 +144,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Терка"
                 android:textSize="25sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#757575"/>
             <ImageView
                 android:layout_width="197dp"
                 android:layout_height="158dp"
@@ -156,7 +156,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Контейнер"
                 android:textSize="25sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#757575"/>
             <ImageView
                 android:layout_width="197dp"
                 android:layout_height="158dp"
@@ -168,7 +168,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Поднос"
                 android:textSize="25sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#757575"/>
             <ImageView
                 android:layout_width="197dp"
                 android:layout_height="158dp"
@@ -180,7 +180,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Сковорода"
                 android:textSize="25sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#757575"/>
             <ImageView
                 android:layout_width="197dp"
                 android:layout_height="158dp"
@@ -192,13 +192,13 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Кастрюля"
                 android:textSize="25sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#757575"/>
             <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/abcend"
             android:textSize="25sp"
-            android:textColor="#ffffff"
+            android:textColor="#757575"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
             <Button

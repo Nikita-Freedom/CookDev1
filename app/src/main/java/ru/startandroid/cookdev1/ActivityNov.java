@@ -44,6 +44,12 @@ public class ActivityNov extends AppCompatActivity implements BottomNavigationVi
     public static final int FRAGMENT_21 = 19;
     public static final int FRAGMENT_22 = 20;
     public static final int FRAGMENT_23 = 21;
+
+    TbFragment tbFragment = new TbFragment();
+    AbcFragment abcFragment = new AbcFragment();
+    RecipeFragment recipeFragment = new RecipeFragment();
+    ZadFragment zadFragment = new ZadFragment();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -75,6 +81,8 @@ public class ActivityNov extends AppCompatActivity implements BottomNavigationVi
         BottomNavigationView navigation = (findViewById(R.id.navigation));
         navigation.setOnNavigationItemSelectedListener(this);
         loadFragment(new TbFragment());
+
+
     }
 
     public void setPage(int page) {
@@ -98,16 +106,16 @@ public class ActivityNov extends AppCompatActivity implements BottomNavigationVi
         Fragment fragment = null;
         switch (menuItem.getItemId()){
             case R.id.navigation_Tb:
-                fragment = new TbFragment();
+                fragment = tbFragment;
                break;
             case R.id.navigation_General:
-                fragment = new AbcFragment();
+                fragment = abcFragment;
                 break;
             case R.id.navigation_Recipe:
-                fragment = new RecipeFragment();
+                fragment = recipeFragment;
                 break;
             case  R.id.navigation_Teach:
-                fragment = new ZadFragment();
+                fragment = zadFragment;
                 break;
         }
        return loadFragment(fragment);
