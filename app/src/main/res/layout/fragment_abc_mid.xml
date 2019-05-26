@@ -2,7 +2,7 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#009688"
+    android:background="#ffffff"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <ScrollView
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/text1Abc"
                 android:textSize="28sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#212121"/>
 
             <ImageView
                 android:layout_width="178dp"
@@ -31,7 +31,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid"
                 android:textSize="24sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
             <TextView
@@ -40,14 +40,14 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid1"
                 android:textSize="35sp"
-                android:textColor="#ffffff"/>
+                android:textColor="#757575"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid2"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -66,7 +66,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid3"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -83,7 +83,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid4"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -100,7 +100,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid5"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -117,7 +117,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid6"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -134,7 +134,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid7"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -151,7 +151,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid8"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -169,7 +169,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid9"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -186,7 +186,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid10"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -203,7 +203,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid11"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -220,7 +220,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid12"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -237,7 +237,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid13"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -254,7 +254,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid14"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -271,7 +271,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid15"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -288,7 +288,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid16"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -305,7 +305,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid17"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -322,7 +322,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid18"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -339,7 +339,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid19"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -356,7 +356,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid20"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -373,7 +373,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmid21"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -390,7 +390,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmidend"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#757575"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
@@ -405,7 +405,7 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/abcmidend1"
                 android:textSize="25sp"
-                android:textColor="#ffffff"
+                android:textColor="#212121"
                 android:layout_marginTop="20sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"

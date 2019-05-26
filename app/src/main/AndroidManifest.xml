@@ -13,8 +13,12 @@
         android:roundIcon="@drawable/lisapovar"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RecipeActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".RecipeActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation"></activity>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,16 +27,22 @@
         </activity>
         <activity
             android:name=".ActivityNov"
-            android:label="@string/title_activity_nov" />
+            android:label="@string/title_activity_nov"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation"/>
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".IntroActivity" />
+        <activity android:name=".IntroActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation"/>
         <activity
             android:name=".ActivityMid"
-            android:label="@string/title_activity_mid">
+            android:label="@string/title_activity_mid"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation">
             14+
         </activity>
     </application>

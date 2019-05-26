@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#009688"
+    android:background="#ffffff"
     android:gravity="bottom">
     <LinearLayout
         android:layout_width="wrap_content"
@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/zadmid"
-            android:textColor="#ffffff"
+            android:textColor="#212121"
             android:textSize="25sp"/>
     </LinearLayout>
 
@@ -33,7 +33,7 @@
         android:gravity="left"
         android:layout_weight="1"
         android:id="@+id/text"
-        android:textColor="#ffffff"
+        android:textColor="#757575"
         android:layout_marginLeft="50sp"/>
     <TextView
         android:layout_width="match_parent"
@@ -43,7 +43,7 @@
         android:gravity="right"
         android:layout_weight="1"
         android:id="@+id/text1"
-        android:textColor="#ffffff"
+        android:textColor="#757575"
         android:layout_marginRight="50sp"/>
 </LinearLayout>
 
