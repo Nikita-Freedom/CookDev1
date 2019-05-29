@@ -15,44 +15,37 @@ import android.widget.Toast;
 
 import ru.startandroid.cookdev1.R;
 
-public class Zad5Fragment extends Fragment {
-    Fragment fragmentzad6;
-    Fragment fragmentzad7;
+public class Task2Fragment extends Fragment {
+    Fragment fragmentzad2;
+    Fragment fragmentzad3;
     @Nullable
     @Override
-
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        fragmentzad6 = new Zad6Fragment();
-
-        View v = inflater.inflate(R.layout.fragment_zad5, null);
-
-
-        final Button button1 = (Button) v.findViewById(R.id.buttonzadnext5);
+        fragmentzad2 = new Task3Fragment();
+        View v = inflater.inflate(R.layout.fragment_task2, null);
+        final Button button1 = (Button) v.findViewById(R.id.buttonzadGOsito);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 FragmentTransaction transaction = getFragmentManager().beginTransaction();
-                transaction.replace(R.id.fragment_container, fragmentzad6);
+                transaction.replace(R.id.fragment_container, fragmentzad2);
                 transaction.commit();}
 
         });
 
 
-        Button button2 = (Button) v.findViewById(R.id.buttonzadBack5);
+        Button button2 = (Button) v.findViewById(R.id.buttonzadBacksito);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                fragmentzad7 = new Zad4Fragment();
+                fragmentzad3 = new Task1Fragment();
                 FragmentTransaction transaction = getFragmentManager().beginTransaction();
-                transaction.add(R.id.fragment_container, fragmentzad7);
+                transaction.add(R.id.fragment_container, fragmentzad3);
                 transaction.commit();
             }
         });
-
-
-        final EditText textTolkushka = (EditText) v.findViewById(R.id.shumovka);
-
-        final Button buttonCheck = (Button) v.findViewById(R.id.buttonzadcheck5);
+        final EditText textSito = (EditText) v.findViewById(R.id.sito);
+        final Button buttonCheck = (Button) v.findViewById(R.id.buttonzadchecksito);
         buttonCheck.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -60,25 +53,23 @@ public class Zad5Fragment extends Fragment {
                 String answer2 = "Половник";
                 String answer1 = "Половник";
                 boolean answer = false;
-                if(TextUtils.isEmpty(textTolkushka.getText().toString())){
+                if(TextUtils.isEmpty(textSito.getText().toString())){
                     Toast toast = Toast.makeText(getContext(),"Ты не ответил!",Toast.LENGTH_LONG);
                     toast.show();
                     button1.setClickable(false);
                 }
-                else if (textTolkushka.getText().toString().equals("дуршлаг")){
+                else if (textSito.getText().toString().equals("сито")){
                     Toast toast = Toast.makeText(getContext(),"Верно!",Toast.LENGTH_LONG);
                     toast.show();
                     button1.setClickable(true);
                 }else {
-                    Toast toast = Toast.makeText(getContext(),"Подсказка: дуршлаг",Toast.LENGTH_LONG);
+                    Toast toast = Toast.makeText(getContext(),"Подсказка: сито",Toast.LENGTH_LONG);
                     toast.show();
                     button1.setClickable(false);
                 }
             }
         });
         return v;
-
-
 
     }
 }

@@ -14,7 +14,8 @@ import java.util.List;
 import ru.startandroid.cookdev1.FragmentBase.AbcMidFragment;
 import ru.startandroid.cookdev1.R;
 import ru.startandroid.cookdev1.FragmentSafetyEngineering.TbMidFragment;
-import ru.startandroid.cookdev1.FragmentTask.ZadMidFragment;
+import ru.startandroid.cookdev1.FragmentTask.TaskMidFragment;
+import ru.startandroid.cookdev1.RecipeFragment.RecipeMidFragment;
 
 public class ActivityMid extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
     private FragmentPagerAdapter _fragmentPagerAdapter;
@@ -29,8 +30,7 @@ public class ActivityMid extends AppCompatActivity implements BottomNavigationVi
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         _fragments.add(FRAGMENT_ONE, new TbMidFragment());
-        _fragments.add(FRAGMENT_TWO, new ZadMidFragment());
-        //_fragments.add(FRAGMENT_ONE, new TbFragment());
+        _fragments.add(FRAGMENT_TWO, new TaskMidFragment());
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nov);
         BottomNavigationView navigation = (findViewById(R.id.navigation));
@@ -63,7 +63,7 @@ public class ActivityMid extends AppCompatActivity implements BottomNavigationVi
                 fragment = new RecipeMidFragment();
                 break;
             case  R.id.navigation_Teach:
-                fragment = new ZadMidFragment();
+                fragment = new TaskMidFragment();
                 break;
         }
         return loadFragment(fragment);

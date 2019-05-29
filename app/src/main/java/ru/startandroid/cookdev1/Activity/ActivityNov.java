@@ -19,22 +19,23 @@ import ru.startandroid.cookdev1.FragmentBase.AbcFragment3;
 import ru.startandroid.cookdev1.FragmentBase.AbcFragment4;
 import ru.startandroid.cookdev1.R;
 import ru.startandroid.cookdev1.FragmentSafetyEngineering.TbFragment;
-import ru.startandroid.cookdev1.FragmentTask.Zad10Fragment;
-import ru.startandroid.cookdev1.FragmentTask.Zad11Fragment;
-import ru.startandroid.cookdev1.FragmentTask.Zad12Fragment;
-import ru.startandroid.cookdev1.FragmentTask.Zad13Fragment;
-import ru.startandroid.cookdev1.FragmentTask.Zad14Fragment;
-import ru.startandroid.cookdev1.FragmentTask.Zad15Fragment;
-import ru.startandroid.cookdev1.FragmentTask.Zad1Fragment;
-import ru.startandroid.cookdev1.FragmentTask.Zad2Fragment;
-import ru.startandroid.cookdev1.FragmentTask.Zad3Fragment;
-import ru.startandroid.cookdev1.FragmentTask.Zad4Fragment;
-import ru.startandroid.cookdev1.FragmentTask.Zad5Fragment;
-import ru.startandroid.cookdev1.FragmentTask.Zad6Fragment;
-import ru.startandroid.cookdev1.FragmentTask.Zad7Fragment;
-import ru.startandroid.cookdev1.FragmentTask.Zad8Fragment;
-import ru.startandroid.cookdev1.FragmentTask.Zad9Fragment;
-import ru.startandroid.cookdev1.FragmentTask.ZadFragment;
+import ru.startandroid.cookdev1.FragmentTask.Task10Fragment;
+import ru.startandroid.cookdev1.FragmentTask.Task11Fragment;
+import ru.startandroid.cookdev1.FragmentTask.Task12Fragment;
+import ru.startandroid.cookdev1.FragmentTask.Task13Fragment;
+import ru.startandroid.cookdev1.FragmentTask.Task14Fragment;
+import ru.startandroid.cookdev1.FragmentTask.Task15Fragment;
+import ru.startandroid.cookdev1.FragmentTask.Task1Fragment;
+import ru.startandroid.cookdev1.FragmentTask.Task2Fragment;
+import ru.startandroid.cookdev1.FragmentTask.Task3Fragment;
+import ru.startandroid.cookdev1.FragmentTask.Task4Fragment;
+import ru.startandroid.cookdev1.FragmentTask.Task5Fragment;
+import ru.startandroid.cookdev1.FragmentTask.Task6Fragment;
+import ru.startandroid.cookdev1.FragmentTask.Task7Fragment;
+import ru.startandroid.cookdev1.FragmentTask.Task8Fragment;
+import ru.startandroid.cookdev1.FragmentTask.Task9Fragment;
+import ru.startandroid.cookdev1.FragmentTask.TaskFragment;
+import ru.startandroid.cookdev1.RecipeFragment.RecipeFragment;
 
 public class ActivityNov extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener{
     private FragmentPagerAdapter _fragmentPagerAdapter;
@@ -68,7 +69,7 @@ public class ActivityNov extends AppCompatActivity implements BottomNavigationVi
     TbFragment tbFragment = new TbFragment();
     AbcFragment abcFragment = new AbcFragment();
     RecipeFragment recipeFragment = new RecipeFragment();
-    ZadFragment zadFragment = new ZadFragment();
+    TaskFragment zadFragment = new TaskFragment();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,22 +81,22 @@ public class ActivityNov extends AppCompatActivity implements BottomNavigationVi
         _fragments.add(FRAGMENT_FIVE, new AbcFragment2());
         _fragments.add(FRAGMENT_SIX, new AbcFragment3());
         _fragments.add(FRAGMENT_SEVEN, new AbcFragment4());
-        _fragments.add(FRAGMENT_EIGHT, new ZadFragment());
-        _fragments.add(FRAGMENT_NINE, new Zad1Fragment());
-        _fragments.add(FRAGMENT_TEN, new Zad2Fragment());
-        _fragments.add(FRAGMENT_ELEVEN, new Zad3Fragment());
-        _fragments.add(FRAGMENT_TWELVE, new Zad4Fragment());
-        _fragments.add(FRAGMENT_THIRTY, new Zad5Fragment());
-        _fragments.add(FRAGMENT_14, new Zad6Fragment());
-        _fragments.add(FRAGMENT_15, new Zad7Fragment());
-        _fragments.add(FRAGMENT_16, new Zad8Fragment());
-        _fragments.add(FRAGMENT_17, new Zad9Fragment());
-        _fragments.add(FRAGMENT_18, new Zad10Fragment());
-        _fragments.add(FRAGMENT_19, new Zad11Fragment());
-        _fragments.add(FRAGMENT_20, new Zad12Fragment());
-        _fragments.add(FRAGMENT_21, new Zad13Fragment());
-        _fragments.add(FRAGMENT_22, new Zad14Fragment());
-        _fragments.add(FRAGMENT_23, new Zad15Fragment());
+        _fragments.add(FRAGMENT_EIGHT, new TaskFragment());
+        _fragments.add(FRAGMENT_NINE, new Task1Fragment());
+        _fragments.add(FRAGMENT_TEN, new Task2Fragment());
+        _fragments.add(FRAGMENT_ELEVEN, new Task3Fragment());
+        _fragments.add(FRAGMENT_TWELVE, new Task4Fragment());
+        _fragments.add(FRAGMENT_THIRTY, new Task5Fragment());
+        _fragments.add(FRAGMENT_14, new Task6Fragment());
+        _fragments.add(FRAGMENT_15, new Task7Fragment());
+        _fragments.add(FRAGMENT_16, new Task8Fragment());
+        _fragments.add(FRAGMENT_17, new Task9Fragment());
+        _fragments.add(FRAGMENT_18, new Task10Fragment());
+        _fragments.add(FRAGMENT_19, new Task11Fragment());
+        _fragments.add(FRAGMENT_20, new Task12Fragment());
+        _fragments.add(FRAGMENT_21, new Task13Fragment());
+        _fragments.add(FRAGMENT_22, new Task14Fragment());
+        _fragments.add(FRAGMENT_23, new Task15Fragment());
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nov);
         BottomNavigationView navigation = (findViewById(R.id.navigation));
@@ -106,7 +107,7 @@ public class ActivityNov extends AppCompatActivity implements BottomNavigationVi
     }
 
     public void setPage(int page) {
-        _viewPager.setCurrentItem(page, true); //второй параметр для плавного перелистывания
+        _viewPager.setCurrentItem(page, true);
     }
 
     public boolean loadFragment(Fragment fragment){

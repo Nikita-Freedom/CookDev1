@@ -15,36 +15,36 @@ import android.widget.Toast;
 
 import ru.startandroid.cookdev1.R;
 
-public class Zad6Fragment extends Fragment {
-    Fragment fragmentzad7;
-    Fragment fragmentzad8;
+public class Task9Fragment extends Fragment {
+    Fragment fragmentzad10;
+    Fragment fragmentzad11;
     @Nullable
     @Override
 
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        fragmentzad7 = new Zad7Fragment();
+        fragmentzad10 = new Task10Fragment();
 
-        View v = inflater.inflate(R.layout.fragment_zad6, null);
+        View v = inflater.inflate(R.layout.fragment_task9, null);
 
 
-        final Button button1 = (Button) v.findViewById(R.id.buttonzadnext6);
+        final Button button1 = (Button) v.findViewById(R.id.buttonzadnext9);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 FragmentTransaction transaction = getFragmentManager().beginTransaction();
-                transaction.replace(R.id.fragment_container, fragmentzad7);
+                transaction.replace(R.id.fragment_container, fragmentzad10);
                 transaction.commit();}
 
         });
 
 
-        Button button2 = (Button) v.findViewById(R.id.buttonzadBack6);
+        Button button2 = (Button) v.findViewById(R.id.buttonzadBack9);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                fragmentzad8 = new Zad5Fragment();
+                fragmentzad11 = new Task8Fragment();
                 FragmentTransaction transaction = getFragmentManager().beginTransaction();
-                transaction.add(R.id.fragment_container, fragmentzad8);
+                transaction.add(R.id.fragment_container, fragmentzad11);
                 transaction.commit();
             }
         });
@@ -52,7 +52,7 @@ public class Zad6Fragment extends Fragment {
 
         final EditText textTolkushka = (EditText) v.findViewById(R.id.shumovka);
 
-        final Button buttonCheck = (Button) v.findViewById(R.id.buttonzadcheck6);
+        final Button buttonCheck = (Button) v.findViewById(R.id.buttonzadcheck9);
         buttonCheck.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -65,12 +65,12 @@ public class Zad6Fragment extends Fragment {
                     toast.show();
                     button1.setClickable(false);
                 }
-                else if (textTolkushka.getText().toString().equals("сито")){
+                else if (textTolkushka.getText().toString().equals("макароны")){
                     Toast toast = Toast.makeText(getContext(),"Верно!",Toast.LENGTH_LONG);
                     toast.show();
                     button1.setClickable(true);
                 }else {
-                    Toast toast = Toast.makeText(getContext(),"Подсказка: сито",Toast.LENGTH_LONG);
+                    Toast toast = Toast.makeText(getContext(),"Подсказка: макароны",Toast.LENGTH_LONG);
                     toast.show();
                     button1.setClickable(false);
                 }

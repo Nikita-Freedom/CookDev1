@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import ru.startandroid.cookdev1.R;
 
-public class ZadMidFragment extends Fragment{
+public class TaskMidFragment extends Fragment{
     Fragment fragment1mid1;
     private TextView text;
     private TextView text1;
@@ -39,8 +39,8 @@ public class ZadMidFragment extends Fragment{
 
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        fragment1mid1 = new ZadMidFragment();
-        View v = inflater.inflate(R.layout.fragment_zad_mid, null);
+        fragment1mid1 = new TaskMidFragment();
+        View v = inflater.inflate(R.layout.fragment_task_mid, null);
         text = v.findViewById(R.id.text);
         text1 = v.findViewById(R.id.text1);
         image = v.findViewById(R.id.btn);

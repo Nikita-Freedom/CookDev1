@@ -1,4 +1,4 @@
-package ru.startandroid.cookdev1.Activity;
+package ru.startandroid.cookdev1.RecipeFragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,6 +16,9 @@ import android.view.ViewGroup;
 import java.util.List;
 
 import ru.startandroid.cookdev1.API.APIHelper;
+import ru.startandroid.cookdev1.Activity.Recipe;
+import ru.startandroid.cookdev1.Activity.RecipeActivity;
+import ru.startandroid.cookdev1.Activity.RecipeAdapter;
 import ru.startandroid.cookdev1.R;
 
 public class RecipeFragment extends Fragment {
@@ -25,7 +28,6 @@ public class RecipeFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-
         View v = inflater.inflate(R.layout.fragment_recipe, null);
         recipesList = v.findViewById(R.id.list);
         recipesList.setLayoutManager(new LinearLayoutManager(getContext()));

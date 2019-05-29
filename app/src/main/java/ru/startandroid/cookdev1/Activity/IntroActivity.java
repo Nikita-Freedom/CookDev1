@@ -20,10 +20,6 @@ import java.io.InputStreamReader;
 import ru.startandroid.cookdev1.R;
 
 public class IntroActivity extends AppIntro  {
-    private static boolean log_on = true; // включение логирования
-    private static boolean first_start = true; // первый запуск
-    private static boolean loginUser = false; // вход User
-    public static final String mSet = "mSet";
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {

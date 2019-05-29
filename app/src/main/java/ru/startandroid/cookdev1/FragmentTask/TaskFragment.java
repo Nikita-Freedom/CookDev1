@@ -15,15 +15,15 @@ import android.widget.Toast;
 
 import ru.startandroid.cookdev1.R;
 
-public class ZadFragment extends Fragment {
+public class TaskFragment extends Fragment {
     Fragment fragmentzad1;
     @Nullable
     @Override
 
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         //textpolovnik.findViewById(R.id.polovnik);
-        fragmentzad1 = new Zad1Fragment();
-        View v = inflater.inflate(R.layout.fragment_zad, null);
+        fragmentzad1 = new Task1Fragment();
+        View v = inflater.inflate(R.layout.fragment_task, null);
         final Button button1 = (Button) v.findViewById(R.id.buttonzad1);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override

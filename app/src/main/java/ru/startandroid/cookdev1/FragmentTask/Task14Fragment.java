@@ -15,16 +15,16 @@ import android.widget.Toast;
 
 import ru.startandroid.cookdev1.R;
 
-public class Zad14Fragment extends Fragment {
+public class Task14Fragment extends Fragment {
     Fragment fragmentzad14;
     Fragment fragmentzad15;
     @Nullable
     @Override
 
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        fragmentzad14 = new Zad15Fragment();
+        fragmentzad14 = new Task15Fragment();
 
-        View v = inflater.inflate(R.layout.fragment_zad14, null);
+        View v = inflater.inflate(R.layout.fragment_task14, null);
 
 
         final Button button1 = (Button) v.findViewById(R.id.buttonzadnext14);
@@ -42,7 +42,7 @@ public class Zad14Fragment extends Fragment {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                fragmentzad15 = new Zad13Fragment();
+                fragmentzad15 = new Task13Fragment();
                 FragmentTransaction transaction = getFragmentManager().beginTransaction();
                 transaction.add(R.id.fragment_container, fragmentzad15);
                 transaction.commit();
