@@ -14,9 +14,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/tb"
+                android:textSize="35sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#212121"
+                android:layout_marginTop="16sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tblis"
                 android:textSize="30sp"
                 android:layout_gravity="center_horizontal"
+                android:gravity="center"
                 android:textColor="#212121" />
+
             <ImageView
             android:layout_width="178dp"
             android:layout_height="183dp"

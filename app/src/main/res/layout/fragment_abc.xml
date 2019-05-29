@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="@string/text1Abc"
-            android:textSize="25sp"
+            android:textSize="30sp"
             android:textColor="#212121"
                 />
 
@@ -213,6 +213,21 @@
             android:textColor="#757575"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/abcend1"
+                android:textSize="25sp"
+                android:textColor="#212121"
+                android:layout_marginLeft="16sp"
+                android:layout_marginRight="16sp"/>
+
+            <ImageView
+                android:layout_width="178dp"
+                android:layout_height="183dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/lisapovar" />
+
             <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -224,7 +239,8 @@
             android:padding="10sp"
                 android:layout_marginLeft="7sp"
                 android:layout_marginRight="7sp"
-                android:layout_marginBottom="7sp"/>
+                android:layout_marginBottom="7sp"
+                android:layout_marginTop="16sp"/>
 
 
 
