@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#009688"
+    android:background="#ffffff"
     android:orientation="vertical"
     android:gravity="bottom">
     <LinearLayout
@@ -25,10 +25,10 @@
     </LinearLayout>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/kartofel" />
+        android:src="@drawable/pot" />
 
     <EditText
         android:id="@+id/shumovka"
@@ -37,8 +37,8 @@
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
         android:hint="Введи название"
-        android:textColor="#ffffff"
-        android:textColorHint="#ffffff" />
+        android:textColor="#757575"
+        android:textColorHint="#757575" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

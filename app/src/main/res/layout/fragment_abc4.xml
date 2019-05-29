@@ -495,7 +495,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="200sp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/zepekanka2"
+                android:src="@drawable/zapekanka2"
                 android:layout_marginTop="10sp"
                 android:layout_marginLeft="16sp"
                 android:layout_marginRight="16sp"/>
