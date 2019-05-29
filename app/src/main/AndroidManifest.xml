@@ -29,7 +29,8 @@
             android:name=".ActivityNov"
             android:label="@string/title_activity_nov"
             android:screenOrientation="portrait"
-            android:configChanges="orientation"/>
+            android:configChanges="orientation"
+            android:noHistory="true"/>
 
         <meta-data
             android:name="preloaded_fonts"
