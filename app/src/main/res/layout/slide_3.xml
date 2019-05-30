@@ -28,6 +28,8 @@
         android:text="@string/description"
         android:textColor="#ffffff"
         android:textSize="23sp"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"/>
 
 </LinearLayout>

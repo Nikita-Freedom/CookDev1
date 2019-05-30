@@ -31,5 +31,7 @@
         android:layout_gravity="center_horizontal"
         android:text="@string/description2"
         android:textColor="#ffffff"
-        android:textSize="23sp" />
+        android:textSize="23sp"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"/>
     </LinearLayout>
